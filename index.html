@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Windows 10 - End of Life</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    .hero {
+      background-image: url('banner.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 3rem 2rem 2rem 2rem;
+      max-width: 800px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      position: relative;
+    }
+    .overlay .logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      height: 60px;
+    }
+    .overlay h1 {
+      margin-top: 4.5rem;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      color: #1e1e1e;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .overlay p, .overlay ul {
+      text-align: right;
+      line-height: 1.6;
+      margin: 0 0 1rem;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+      text-align: right;
+    }
+    button {
+      background-color: #0078d7;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #005a9e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="overlay">
+      <img src="logo.png" alt="Logo" class="logo">
+
+      <h1>Windows 10 - סיום תמיכה</h1>
+
+      <p>חברת Microsoft הודיעה רשמית כי בתאריך 14/10/2025 תגיע לסיומה התמיכה במערכת ההפעלה Windows 10 המותקנת על מחשבי קצה.</p>
+
+      <p>חלק מרכזי הינו אבטחת המידע, מטריקס ממליצה להתחיל בביצוע עדכוני גרסה שכן, תהליך זה דורש זמן, תכנון ומשאבים.</p>
+
+      <p>אנחנו במטריקס אינטגרציה ותשתיות, כאן כדי לסייע לארגון שלך להיערך לשינוי אשר קורה בנובמבר 2025.</p>
+
+      <p>במהלך זה אתם צריכים שותף רציני, מקצועי ושיכול לספק את הפתרון הראוי.</p>
+
+      <ul>
+        <li>ביצוע מיפוי מפורט והתארגנות מחדש על מספר המחשבים בארגון ופיזורם באופן יעיל.</li>
+        <li>מתי אפשר וצריך רק לשדרג תוכנה ומתי הארגון מחויב להחליף חומרה רלוונטית.</li>
+        <li>במחשבים הישנים ניתן יהיה להשתמש לפעילויות פחות חשובות או לתרום לנזקקים.</li>
+        <li>תוכנית החלפת מחשבים – מותאמת אישית על פי צורכי הארגון.</li>
+        <li>מחויבות להמשכיות עסקית.</li>
+      </ul>
+
+      <form action="https://formspree.io/f/moqgwdoy" method="POST">
+        <input type="text" name="company" placeholder="שם חברה" required>
+        <input type="text" name="contact" placeholder="שם איש קשר" required>
+        <input type="email" name="email" placeholder="דוא״ל" required>
+        <input type="tel" name="phone" placeholder="טלפון נייד (10 ספרות)" required>
+        <textarea name="message" rows="4" placeholder="הערות / בקשות מיוחדות (לא חובה)"></textarea>
+        <button type="submit">לתיאום שיחה עם נציג</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
