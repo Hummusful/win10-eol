@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Windows 10 - End of Life</title>
   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logo.png">
   <style>
     body {
       font-family: 'Heebo', sans-serif;
@@ -13,7 +14,7 @@
       background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
     }
     .hero {
-      background-image: url('banner2.png'); 
+      background-image: url('banner2.png');
       background-size: cover;
       background-position: center;
       min-height: 100vh;
@@ -21,6 +22,7 @@
       justify-content: center;
       align-items: center;
       padding: 2rem;
+      position: relative;
     }
     .overlay {
       background-color: rgba(255, 255, 255, 0.95);
@@ -30,6 +32,7 @@
       width: 100%;
       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
       animation: fadeSlideUp 1s ease-in-out;
+      position: relative;
     }
     @keyframes fadeSlideUp {
       0% { opacity: 0; transform: translateY(30px); }
@@ -89,7 +92,6 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 1rem;
-      flex-direction: row-reverse;
     }
     .logos img {
       height: 50px;
@@ -116,7 +118,7 @@
       <p>אנחנו במטריקס אינטגרציה ותשתיות, כאן כדי לסייע לארגון שלך להיערך לשינוי אשר קורה בנובמבר 2025.</p>
       <p>במהלך זה אתם צריכים שותף רציני, מקצועי ושיכול לספק את הפתרון הראוי.</p>
       <ul>
-        <li>ביצוע מיפוי פורטו והתארגנות מחדש על מספר המחשבים בארגון ופיזורם באופן יעיל.</li>
+        <li>ביצוע מיפוי מפורט והתארגנות מחדש על מספר המחשבים בארגון ופיזורם באופן יעיל.</li>
         <li>מתי אפשר ורק לשדרג תוכנה ומתי הארגון מחויב להחליף החומרה הרלוונטית.</li>
         <li>במחשבים הישנים ניתן יהיה להשתמש לפעילויות פחות חשובות או לתרום לנזקקים.</li>
         <li>תוכנית החלפת מחשבים – מותאמת אישית על פי צורכי הארגון.</li>
@@ -128,7 +130,7 @@
         <input type="text" name="name" placeholder="שם איש קשר" required>
         <input type="email" name="email" placeholder="דואר אלקטרוני" required>
         <input type="tel" name="phone" placeholder="טלפון נייד" required>
-        <textarea name="notes" placeholder="הערות " rows="3"></textarea>
+        <textarea name="notes" placeholder="הערות" rows="3"></textarea>
         <button type="submit">לתיאום שיחה עם נציג</button>
       </form>
     </div>
