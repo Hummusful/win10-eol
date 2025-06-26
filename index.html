@@ -13,7 +13,7 @@
       background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
     }
     .hero {
-      background-image: url('banner2.png'); /* החלף לשם הרקע שלך */
+      background-image: url('banner2.png'); 
       background-size: cover;
       background-position: center;
       min-height: 100vh;
@@ -89,6 +89,7 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 1rem;
+      flex-direction: row-reverse;
     }
     .logos img {
       height: 50px;
@@ -105,8 +106,8 @@
   <div class="hero">
     <div class="overlay">
       <div class="logos">
-        <img src="win10-eol-logo.png" alt="Windows 10 End of Life">
         <img src="logo.png" alt="Matrix">
+        <img src="win10-eol-logo.png" alt="Windows 10 End of Life">
       </div>
       <h1>Windows 10 - סיום תמיכה</h1>
       <hr>
@@ -122,12 +123,12 @@
         <li>מחויבות להמשכיות עסקית.</li>
       </ul>
       <p class="form-description">השאירו פרטים ונציג שלנו יחזור אליכם לתיאום שיחה</p>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form action="https://formspree.io/f/mqabgvrr" method="POST">
         <input type="text" name="company" placeholder="שם חברה" required>
         <input type="text" name="name" placeholder="שם איש קשר" required>
-        <input type="email" name="email" placeholder="דוא"ל" required>
-        <input type="tel" name="phone" placeholder="טלפון נייד (10 ספרות)" required>
-        <textarea name="notes" placeholder="הערות / תיאום מועד מועדף (לא חובה)" rows="3"></textarea>
+        <input type="email" name="email" placeholder="דואר אלקטרוני" required>
+        <input type="tel" name="phone" placeholder="טלפון נייד" required>
+        <textarea name="notes" placeholder="הערות " rows="3"></textarea>
         <button type="submit">לתיאום שיחה עם נציג</button>
       </form>
     </div>
